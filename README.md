@@ -58,4 +58,14 @@ La **fonction de perte** combine :
 ---
 
 ## 📂 Structure du dépôt
+Helmholtz-PINN/
+├── main.py # Script principal (entraînement + test)
+├── LaTeX # Fonctions auxiliaires (points, conditions aux limites)
+    ├── Paper # Papier scientifique
+├── Figures # Graphiques, heatmaps, modèles sauvegardés
+    ├── Figure_1 # Graphiques, heatmaps, modèles sauvegardés
+    ├── Figure_2 # Graphiques, heatmaps, modèles sauvegardés
+    ├── Figures_3 # Graphiques, heatmaps, modèles sauvegardés
+├── requirements.txt # Dépendances Python
+└── README.md # Ce fichier
 
