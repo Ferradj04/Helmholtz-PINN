@@ -59,13 +59,23 @@ La **fonction de perte** combine :
 
 ## 📂 Structure du dépôt
 Helmholtz-PINN/
-├── main.py # Script principal (entraînement + test)
-├── LaTeX # Fonctions auxiliaires (points, conditions aux limites)
-    ├── Paper # Papier scientifique
-├── Figures # Graphiques, heatmaps, modèles sauvegardés
-    ├── Figure_1 # Graphiques, heatmaps, modèles sauvegardés
-    ├── Figure_2 # Graphiques, heatmaps, modèles sauvegardés
-    ├── Figures_3 # Graphiques, heatmaps, modèles sauvegardés
-├── requirements.txt # Dépendances Python
-└── README.md # Ce fichier
+├── src/                     # Code source
+│   ├── main.py              # Script principal (entraînement + test)
+│   ├── model.py             # Réseau PINN
+│   ├── train.py             # Boucle d’entraînement
+│   └── utils.py             # Fonctions auxiliaires (points, conditions aux limites)
+│
+├── docs/                    # Documentation et papier
+│   ├── latex/               # Fichiers LaTeX
+│   │   └── paper/           # Papier scientifique
+│   └── references.bib       # (optionnel) bibliographie
+│
+├── figures/                 # Résultats et visualisations
+│   ├── figure_1/            # Graphiques, heatmaps, modèles sauvegardés
+│   ├── figure_2/
+│   └── figure_3/
+│
+├── requirements.txt         # Dépendances Python
+└── README.md                # Documentation du dépôt
+
 
