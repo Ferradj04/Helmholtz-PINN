@@ -58,4 +58,12 @@ La **fonction de perte** combine :
 ---
 
 ## 📂 Structure du dépôt
+Helmholtz-PINN/
+├── main.py # Script principal (entraînement + test)
+├── model.py # Définition du PINN (réseau de neurones)
+├── train.py # Boucle d’entraînement et gestion de la loss
+├── utils.py # Fonctions auxiliaires (points, conditions aux limites)
+├── results/ # Graphiques, heatmaps, modèles sauvegardés
+├── requirements.txt # Dépendances Python
+└── README.md # Ce fichier
 
