@@ -57,7 +57,6 @@ La **fonction de perte** combine :
 
 ---
 
-## 📂 Structure du dépôt
 Helmholtz-PINN/
 ├── src/                     # Code source
 │   ├── main.py              # Script principal (entraînement + test)
@@ -77,5 +76,3 @@ Helmholtz-PINN/
 │
 ├── requirements.txt         # Dépendances Python
 └── README.md                # Documentation du dépôt
-
-
