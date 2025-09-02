@@ -57,22 +57,5 @@ La **fonction de perte** combine :
 
 ---
 
-Helmholtz-PINN/
-├── src/                     # Code source
-│   ├── main.py              # Script principal (entraînement + test)
-│   ├── model.py             # Réseau PINN
-│   ├── train.py             # Boucle d’entraînement
-│   └── utils.py             # Fonctions auxiliaires (points, conditions aux limites)
-│
-├── docs/                    # Documentation et papier
-│   ├── latex/               # Fichiers LaTeX
-│   │   └── paper/           # Papier scientifique
-│   └── references.bib       # (optionnel) bibliographie
-│
-├── figures/                 # Résultats et visualisations
-│   ├── figure_1/            # Graphiques, heatmaps, modèles sauvegardés
-│   ├── figure_2/
-│   └── figure_3/
-│
-├── requirements.txt         # Dépendances Python
-└── README.md                # Documentation du dépôt
+## 📂 Structure du dépôt
+
